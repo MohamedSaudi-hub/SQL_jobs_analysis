@@ -189,7 +189,9 @@ LIMIT 10;
   - **Excel stills Essential:** Despite the rise of advanced tools, Excel is the second most required skill.
   - **Python vs. R:** **Python** was mentioned than 155 times in job postings on the other side **R** was mentioned 50 times showing the significant importnace of **Python** more than **R** in the job Market
   - **Visualization Balance:** **Tableau** was mentioned 126 times while **Power BI** was mentioned 123 times showing the importance of both of them in the job market.
+  
   ![Alt Text](assets/Top_required_skills_for_data_analysts.png)
+
   _Bar graph visualizing the top skills for Data Analysts in the Egyptian job market; This image was creating by gemini from The SQL query results_
 
 ### 4.Top Paid Skills for Data Analysis 📈
