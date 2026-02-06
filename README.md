@@ -76,22 +76,12 @@ LIMIT 10;
 - **Analysis:** Ordered job postings by `salary_year_avg` in descending order.
 
 - **Insight:**
-<<<<<<< HEAD
   - **Wide Salary Range:** The top 10 highest-paying roles range from $184K to $650K.
 
   - **Remote Work:** A significant finding is that a wide range of these top-paying roles are remote ("Anywhere"), suggesting location is no longer a barrier to a high paid compensation.
   * **Role Seniority:** While titles like "Director" and "Principal" appear frequently, standard "Data Analyst" titles at specific tech companies (e.g., Mantys, Pinterest) also have elite salary ranges, proving that high compensation isn't limited to management.
     ![Top paying jobs](assets/Top_10_paid_jobs.png)
-=======
-
-      * **Wide Salary Range:** The top 10 highest-paying roles range from $184K to $650K.
-
-      * **Remote Work:** A significant finding is that a wide range of these top-paying roles are remote ("Anywhere"), suggesting location is no longer a barrier to a high paid compensation.
-
-  - **Role Seniority:** While titles like "Director" and "Principal" appear frequently, standard "Data Analyst" titles at specific tech companies (e.g., Mantys, Pinterest) also have elite salary ranges, proving that high compensation isn't limited to management.
-    ![Top paying jobs](assets\Top_10_paid_jobs.png)
->>>>>>> 800c9e8d8a83efa2aee4da403e9137adf9086635
-    _Bar graph visualizing the salary for the top 10 jobs ("Data analysts"); This image was creating by gemini from The SQL query results_
+    *Bar graph visualizing the salary for the top 10 jobs ("Data analysts"); This image was creating by gemini from The SQL query results*
 
 ### 2.Required Skills for Top Paid Jobs 💼
 
@@ -161,17 +151,10 @@ ON skills_dim.skill_id = skills_job_dim.skill_id
 4.  **Soft Skills in Disguise:**
 
 - Tools like **Jira**, **Confluence**, and **PowerPoint** appear frequently. This signals that these roles involve significant project managemen.
-<<<<<<< HEAD
   ![Alt Text](assets/Top_required_skills_for_top_jobs.png)
   _Bar graph visualizing the top skills in data manegment job market; This image was creating by gemini from The SQL query results_
 
-### 3.Most Required Skills for Data Analysts (**In Egypt**)📊
-=======
-  ![Alt Text](assets\Top_required_skills_for_top_jobs.png)
-  _Bar graph visualizing the top skills in data manegment job market; This image was creating by gemini from The SQL query results_
-
 ### 3.Most Required Skills for Data Analysts (** In Egypt**)📊
->>>>>>> 800c9e8d8a83efa2aee4da403e9137adf9086635
 
 To determine what skills are most critical for getting hired, I calculated the frequency of each skill across all Data Analyst job postings **In Egypt**.
 
@@ -202,15 +185,11 @@ LIMIT 10;
 
 - **Analysis:** I counted the number of job postings associated with each skill in the dataset.
 - **Insights:**
-  _ **SQL is King:** With 196 mentions, SQL is the most required skill. It appears in nearly every job description, proving that database management is the core of the data analysis.
-  _ **Excel stills Essential:** Despite the rise of advanced tools, Excel is the second most required skill.
-  _ **Python vs. R:** **Python** was mentioned than 155 times in job postings on the other side **R** was mentioned 50 times showing the significant importnace of **Python** more than **R** in the job Market
-  _ **Visualization Balance:** **Tableau** was mentioned 126 times while **Power BI** was mentioned 123 times showing the importance of both of them in the job market.
-<<<<<<< HEAD
+  - **SQL is King:** With 196 mentions, SQL is the most required skill. It appears in nearly every job description, proving that database management is the core of the data analysis.
+  - **Excel stills Essential:** Despite the rise of advanced tools, Excel is the second most required skill.
+  - **Python vs. R:** **Python** was mentioned than 155 times in job postings on the other side **R** was mentioned 50 times showing the significant importnace of **Python** more than **R** in the job Market
+  - **Visualization Balance:** **Tableau** was mentioned 126 times while **Power BI** was mentioned 123 times showing the importance of both of them in the job market.
   ![Alt Text](assets/Top_required_skills_for_data_analysts.png)
-=======
-  ![Alt Text](assets\Top_required_skills_for_data_analysts.png)
->>>>>>> 800c9e8d8a83efa2aee4da403e9137adf9086635
   _Bar graph visualizing the top skills for Data Analysts in the Egyptian job market; This image was creating by gemini from The SQL query results_
 
 ### 4.Top Paid Skills for Data Analysis 📈
@@ -248,11 +227,9 @@ LIMIT 25;
 - **The "Core" Baseline:** Foundational skills like **Python** and **SQL** sit in the middle tier **($63,282)**. While they are required for almost every job (high demand) yet, they still have low salaries.
 
 - **Visualization Tools:** Interestingly, **Power BI** is paying significantly higher than **Tableau** in this specific dataset, probably due to its connection with high-paying **Azure/Microsoft enterprise roles.**
-<<<<<<< HEAD
+
   ![Alt Text](assets/Top_Paid_skills_for_data_analysts_in_egypt.png)
-=======
-  ![Alt Text](assets\Top_Paid_skills_for_data_analysts_in_egypt.png)
->>>>>>> 800c9e8d8a83efa2aee4da403e9137adf9086635
+  
   _Bar graph visualizing the top paid skills for Data Analysts in the Egyptian job market; This image was creating by gemini from The SQL query results_
 
 ### 5.Most "Optimal" Skills 🎯(**general**)
@@ -300,11 +277,8 @@ LIMIT 25;
 
 4. **Snowflake** sits in a position of moderate demand (37) but very high pay ($113k)indicating it's a rapidly growing, high-value skill worth learning now.
 
-<<<<<<< HEAD
 ![Alt text](assets/Most_Optimal_Skills.png)
-=======
-![Alt text](assets\Most_Optimal_Skills.png)
->>>>>>> 800c9e8d8a83efa2aee4da403e9137adf9086635
+
 _Scatter plot visualizing the optimal skills for Data Analysts in the job market; This image was creating by gemini from The SQL query results_
 
 ## What I learned 🧩
@@ -323,9 +297,9 @@ Throughout this project, I built a toolkit of data analysis skills, moving from 
 
 This analysis provided a clear, data-driven roadmap for navigating the data analyst job market. The findings from my SQL queries consistently point to a few market realities:
 
-**Specialization Pays:** The highest average salaries (upwards of $100k-$115k) are not attached to generalist tools but to specialized skills like Go, Snowflake, and Hadoop. This suggests that while broad skills get you in the door, niche technical expertise is what drives higher compensation.
+- **Specialization Pays:** The highest average salaries (upwards of $100k-$115k) are not attached to generalist tools but to specialized skills like Go, Snowflake, and Hadoop. This suggests that while broad skills get you in the door, niche technical expertise is what drives higher compensation.
 
-**The Power of Cloud & Big Data:** There is a definitive premium on cloud-native tools (**Azure, AWS, BigQuery**) compared to on-premise or traditional desktop tools. The market is clearly valuing analysts who can operate in cloud environments.
+- **The Power of Cloud & Big Data:** There is a definitive premium on cloud-native tools (**Azure, AWS, BigQuery**) compared to on-premise or traditional desktop tools. The market is clearly valuing analysts who can operate in cloud environments.
 
 - **The "Optimal" Skill Set:** **Python** proves to be the most versatile tool, sitting in the "sweet spot" of high demand and high salary. Meanwhile, **SQL** remains the foundational bedrock of the industry—the most requested skill across the board.
 
